@@ -9,7 +9,7 @@ INSERT INTO users (username, name, email, password, role, created_at) VALUES ('v
 INSERT INTO users (username, name, email, password, role, created_at) VALUES ('javier', 'Javier Herrera', 'javier@example.com', 'password606', 'USER', CURRENT_TIMESTAMP);
 INSERT INTO users (username, name, email, password, role, created_at) VALUES ('isabella', 'Isabella Castro', 'isabella@example.com', 'password707', 'USER', CURRENT_TIMESTAMP);
 INSERT INTO users (username, name, email, password, role, created_at) VALUES ('andres', 'Andrés Vargas', 'andres@example.com', 'password808', 'USER', CURRENT_TIMESTAMP);
-INSERT INTO users (username, name, email, password, role, created_at) VALUES ('camila', 'Camila Mendoza', 'camila@example.com', 'password909', 'USER', CURRENT_TIMESTAMP);
+INSERT INTO users (username, name, email, password, role, created_at) VALUES ('scamila', 'Camila Mendoza', 'camila@example.com', 'password909', 'USER', CURRENT_TIMESTAMP);
 INSERT INTO users (username, name, email, password, role, created_at) VALUES ('miguel', 'Miguel Ángel Pérez', 'miguel@example.com', 'password111', 'USER', CURRENT_TIMESTAMP);
 INSERT INTO users (username, name, email, password, role, created_at) VALUES ('lucia', 'Lucía Romero', 'lucia@example.com', 'password222', 'USER', CURRENT_TIMESTAMP);
 INSERT INTO users (username, name, email, password, role, created_at) VALUES ('gabriel', 'Gabriel Silva', 'gabriel@example.com', 'password333', 'ADMIN', CURRENT_TIMESTAMP);
