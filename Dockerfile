@@ -4,16 +4,16 @@
 FROM maven:3.9-eclipse-temurin-21-alpine AS build
 WORKDIR /app
 
-# Copiar archivos de configuración Maven
-COPY pom.xml .
-COPY mvnw .
-COPY .mvn .mvn
+# Copiar archivos de configuración Maven desde prueba-sprint
+COPY prueba-sprint/pom.xml .
+COPY prueba-sprint/mvnw .
+COPY prueba-sprint/.mvn .mvn
 
 # Descargar dependencias (se cachea esta capa)
 RUN mvn dependency:go-offline -B
 
 # Copiar código fuente
-COPY src ./src
+COPY prueba-sprint/src ./src
 
 # Construir el JAR (sin tests para más rapidez)
 RUN mvn clean package -DskipTests
